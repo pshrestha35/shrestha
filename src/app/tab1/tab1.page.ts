@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +8,23 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  lat;
+  lng;
+
+  constructor(
+    private geo: Geolocation
+  ) {}
+
+  Location() {
+    this.geo.getCurrentPosition({
+      timeout: 15000,
+      enableHighAccuracy: true
+    }).then( (res) =>{
+      this.lat = res.coords.latitude;
+      this.lat = res.coords.longitude;
+    }).catch((e)=>{
+      console.log(e);
+    });
+  }
 
 }

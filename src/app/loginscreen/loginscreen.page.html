@@ -1,0 +1,57 @@
+<ion-header>
+  
+  <ion-title>
+    Shrestha Food Service
+  </ion-title>
+
+</ion-header>
+
+<ion-content>
+<ion-card-content class="ion-no-margin">
+  <ion-img src="assets/images/buddha.png"></ion-img>
+  <ion-buttons slot="start">
+    <ion-back-button defaulthref="login" text="login"></ion-back-button>
+  </ion-buttons>
+
+ <div class="wrapform">
+
+  <ion-item>
+    <ion-icon name="mail-outline"></ion-icon>
+    <ion-input type ="text" name="email" [(ngModel)]="user.email" placeholder="Email" required>
+      
+    </ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name="lock-closed-outline"></ion-icon>
+    <ion-input type = password name="password" placeholder="***********" [(ngModel)]="user.password" required></ion-input>
+  </ion-item>
+
+ </div>
+
+ <div class="password_forget">
+   <ion-button href="forgotpassword"fill="clear" class="ion-no-padding">ForgotPassword?</ion-button>
+ </div>
+
+ <div class="sign-btn-wrap">
+ <ion-button shape="round" fill="solid" class="sign-btn" (click)="login()">Login</ion-button>
+ </div>
+
+ <div class="text-tag">
+  <span> Or Login via Social Media</span>
+</div>
+
+<div class="social-btns">
+  <ion-button fill="clear" class="facebookbtn ion-no-padding">
+    <ion-img src="assets/images/facebook.png"></ion-img>>
+  </ion-button>
+  <ion-button fill="clear" class="googlebtn ion-no-padding">
+    <ion-img src="assets/images/google.png"></ion-img>>
+  </ion-button>
+  <ion-button fill="clear" class="twitterbtn ion-no-padding">
+    <ion-img src="assets/images/twitter.png"></ion-img>>
+  </ion-button>
+</div>
+
+</ion-card-content>
+</ion-content>

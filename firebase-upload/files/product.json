@@ -1,0 +1,57 @@
+[{
+    "title": "Samosa",
+    "price": 5,
+    "description": "It is made of flour with potatoes and peas inside ",
+    "category": "appitizer",
+    "image": "https://images.app.goo.gl/W7hjRfboKia3e3SZ7",
+    "stock": 100
+}, {
+    "title": "Pakoda ",
+    "price": 4,
+    "description": "Made with flour along with onions and chilli",
+    "category": "appitizer",
+    "image": "https://images.app.goo.gl/LUhqgFqkTwLLcHmr9",
+    "stock": 100
+}, {
+    "title": "Momo",
+    "price": 8,
+    "description": "Famous food in Nepal. It contains grinded chicken meat inside",
+    "category": "appitizer",
+    "image": "https://images.app.goo.gl/PbqRKhuHnrtzzHYJA",
+    "stock": 100
+}, {
+    "title": "Chowmein",
+    "price": 7,
+    "description": "It is sphagetti with nepali taste",
+    "category": "appitizer",
+    "image": "https://images.app.goo.gl/sxCThR2S4ppDZbUa7",
+    "stock": 100
+}, {
+    "title": "Chicken Curry",
+    "price": 12,
+    "description": "Made with Chicken, tomatoes, onion, garlic, ginger and indian masala. Comes with Rice",
+    "category": "Main Course",
+    "image": "https://images.app.goo.gl/6RyvP8VekX9A4F5FA",
+    "stock": 100
+}, {
+    "title": "Chicken Tikka Masala",
+    "price": 12,
+    "description": "Made with Chicken, tomatoes, onion, and indian tikka masala. Comes with Naan bread",
+    "category": "Main Course",
+    "image": "https://images.app.goo.gl/LRHfvFg6UYUyf5D39",
+    "stock": 100
+}, {
+    "title": "Lassi",
+    "price": 3,
+    "description": "Made with yogurt, sugar",
+    "category": "drinks",
+    "image": "https://images.app.goo.gl/vNsoQXnVf5Gmm6Eu7",
+    "stock": 100
+}, {
+    "title": "Mango Lassi",
+    "price": 4,
+    "description": "Made with yogurt, sugar, mango",
+    "category": "drinks",
+    "image": "https://images.app.goo.gl/J67nEbLVoyAzEw2BA",
+    "stock": 100
+}]

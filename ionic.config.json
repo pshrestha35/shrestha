@@ -1,5 +1,8 @@
 {
   "name": "ps",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
